@@ -2405,7 +2405,7 @@ description={Resistor}
 
 % Authors, for the paper (add full first names)
 \Author{\hl{Roney Duarte da Silva} %MDPI: 1. Please carefully check the accuracy of names and affiliations. 2. The email address highlighted is different from the one submitted online at susy.mdpi.com. Please confirm which is correct.
- $^{1,2}$\orcidA{} and João Marcos Salvi Sakamoto $^{1,2,*}$\orcidB{} }
+ $^{1,2}$\orcidA{} and João Marcos Salvi Sakamoto $^{2,1,*}$\orcidB{} }
 
 %\longauthorlist{yes}
 
@@ -2780,7 +2780,7 @@ Although conventional technologies, such as piezoelectric accelerometers and tho
 
 
 
-Since these foundational works, the technology has evolved considerably, particularly concerning ingenious structural topologies \citep{cao2025,chen2025,VelazquezCarreon2026,Qiu2025,Liu2025,zhang2025,wang2025,duan2024,zhang2025inclined,fan2025,teng2024a,li2024a,zhang2024triaxial,Qiu2023}. Although the spring-mass topology remains prevalent due to its mechanical robustness, alternative configurations have been explored \citep{Wang2023}. Recent studies have reported sensors based on multi-core fibers \citep{Zhou2021}, as well as off-axis FBGs and flexible filament-based designs capable of multidimensional vibration sensing without bulky seismic masses, as reviewed by \citet{Guo2021}.
+Since these foundational works, the technology has evolved considerably, particularly concerning ingenious structural topologies \citep{cao2025,chen2025,VelazquezCarreon2026,Qiu2025,Liu2025,zhang2025,wang2025,duan2024,zhang2025inclined,fan2025,teng2024a,li2024a,zhang2024,Qiu2023}. Although the spring-mass topology remains prevalent due to its mechanical robustness, alternative configurations have been explored \citep{Wang2023}. Recent studies have reported sensors based on multi-core fibers \citep{Zhou2021}, as well as off-axis FBGs and flexible filament-based designs capable of multidimensional vibration sensing without bulky seismic masses, as reviewed by \citet{Guo2021}.
 
 Significant improvements in sensitivity have been observed. An integrated single-mass triaxial design was investigated by \citet{Liu2025}, demonstrating superior consistency between {axis} sensitivities (\SIrange{98}{217}{\pico\meter\per\gravity}) and low cross-axis error ($<$$\SI{9.5}{\%}$). A low-frequency (\SIrange{1}{40}{\hertz}) dual-mass sensor was proposed by \citet{Qiu2023}, achieving high sensitivity (\SI{1194}{\pico\meter\per\gravity}) and linearity ($R^2 = \SI{99.98}{\percent}$), making it suitable for infrastructure monitoring.
 \textls[-15]{Beyond structural topology, recent research has also focused on manufacturing materials and cross-sensitivity decoupling. Low-frequency vibration sensors integrating \glspl{fbg} into 3D-printed bridge-type flexure hinges were developed by \citet{VelazquezCarreon2026}. It was demonstrated that varying geometric parameters enables tuning of the dynamic response, achieving sensitivities up to \SI{1730}{\pico\meter\per\gravity} in the \SIrange{1}{20}{\hertz} range. Regarding seismic applications, a cross-diaphragm structure optimized for the \SIrange{0.1}{50}{\hertz} range with a sensitivity of \SI{590}{\pico\meter\per\gravity} was developed by~\citet{Zhang2024},} while a five-fold sensitivity increase ($\approx$$\SI{2150}{\pico\meter\per\gravity}$) was achieved by \citet{Chen2021} through the utilization of fibers with reduced cladding diameter ($\SI{50}{\micro\meter}$), validating a dynamic resolution of \SI{0.1}{\milli\gravity}.
@@ -2800,10 +2800,10 @@ Another critical and often overlooked aspect in these developments is the rigoro
 In summary, to address the identified gaps---specifically the lack of system-level thermal compensation and the absence of rigorous stochastic noise quantification for navigation---the main contributions of this study are consolidated as follows:
 
 \begin{enumerate}
-    \item \textbf{\hl{Embedded} %MDPI: Please confirm if the bold formatting in the paper is necessary; if not, please remove it. 
+    \item {\hl{Embedded} %MDPI: Please confirm if the bold formatting in the paper is necessary; if not, please remove it. 
  Intensity-Based Interrogation:} Development of a custom, low-cost, and compact interrogation system that enables DC-coupled acceleration measurements, overcoming the \gls{swap} limitations of commercial spectral interrogators.
-    \item \textbf{System-Level Calibration Model:} Proposal of an extended polynomial calibration methodology that compensates for the aggregate thermal non-linearities of the entire optoelectronic chain (source, couplers, and detectors), surpassing the limitations of transducer-only compensation.
-    \item \textbf{Rigorous Stability Analysis:} A comprehensive characterization of the sensor's long-term bias instability and \gls{vrw} using Allan Variance, validating its performance against tactical-grade navigation requirements.
+    \item {System-Level Calibration Model:} Proposal of an extended polynomial calibration methodology that compensates for the aggregate thermal non-linearities of the entire optoelectronic chain (source, couplers, and detectors), surpassing the limitations of transducer-only compensation.
+    \item {Rigorous Stability Analysis:} A comprehensive characterization of the sensor's long-term bias instability and \gls{vrw} using Allan Variance, validating its performance against tactical-grade navigation requirements.
 \end{enumerate}
 
 
@@ -2941,6 +2941,7 @@ The diffraction half-angle ($\theta$) of the first-order beams ($m\pm 1$) genera
 \begin{equation}
 	\theta=\arcsin\frac{m\,\wavelengthLaser}{\phaseMaskPeriod}.\label{eq:-117}
 \end{equation}
+
 \hl{The} %MDPI: Please check if keep no indent format of paragraph, please check the whole manuscript and confirm.
  experimental setup comprises a \gls{uv} laser ($\wavelengthLaser=\SI{244}{\nm}$, with an output power of \SI{100}{\mW}), a phase mask ($\phaseMaskPeriod=\SI{1052.6}{\nm}$), two directional mirrors, an \gls{fo} holder, and a shutter for exposure time control. Substituting the experimental parameters into \cref{eq:-117}, the diffraction half-angle is calculated as:
 \begin{equation}
@@ -3386,7 +3387,7 @@ To quantify the sensor's long-term instability, a test was conducted with the ac
 
 \begin{figure}[H]
 	 \includegraphics[width=0.95\textwidth]{collected_data_acc4_calibration_test_7_20240806_en.pdf}
-	\caption{\hl{Raw} %MDPI: To reduce white space, we have not placed it where it is first mentioned, please confirm.
+	\caption{\hl{Raw} %MDPI: To reduce white space, we have not placed it where it is first mentioned, please confirm. #13
  data dataset acquired during the static calibration procedure performed at a constant temperature of $\approx$$\SI{23.4}{\celsius}$. The top row displays the uncalibrated response (in digital counts) for the $\basex$, $\basey$, and $\basez$ axes as the sensor undergoes discrete rotations. The bottom row presents the auxiliary variables: the optical reference power (used for normalization), the rotation angle $\psiEuler$ (continuous rotation around the table axis), and the inclination angle $\thetaEuler$ (discrete steps relative to gravity).\protect\label{fig:-64}}
 	
 
@@ -3450,7 +3451,7 @@ The observed disparity in the results among the axes is likely attributable to m
 	\centering{}%
 	\begin{tabular}{ccc}
 		\toprule
-		\textbf{Axis}         & {\textbf{VRW}} \boldmath{$\left[\si{\meter\per\second\per\sqrt{{\hour}}}\right]$} & \textbf{\emph{Bias} Instability} {\textbf{[mg]}} \\\midrule
+		Axis         & {VRW} {$\left[\si{\meter\per\second\per\sqrt{{\hour}}}\right]$} & {Bias Instability} {{$\left[\si{\milli\gravity}\right]$}} \\\midrule
 		$\mathbf{x}$ & $\num{3.9594}$                                                    & $\num{0.5383}$                                 \\
 		$\mathbf{y}$ & $\num{1.9444}$                                                    & $\num{1.1031}$                                 \\
 		$\mathbf{z}$ & $\num{2.8702}$                                                    & $\num{1.8719}$                                 \\
@@ -3469,11 +3470,11 @@ The observed disparity in the results among the axes is likely attributable to m
 \label{tab:grades}
 \begin{tabular}{@{}l c c@{}}
 \toprule
-\textbf{Performance Grade} & \textbf{Bias Instability} & \textbf{Typical Application} \\ \midrule
+Performance Grade & {Bias Instability} & {Typical Application} \\ \midrule
 Marine/Navigation & $<$$\SI{0.025}{\milli\gravity}$ & Submarines, Long-haul Aircraft \\
-\textbf{Tactical} & \textbf{\SI{0.1}{}--\SI{10.0}{\milli\gravity}} & \textbf{UAVs, Short-range Missiles} \\
+{Tactical} & {\SI{0.1}{}--\SI{10.0}{\milli\gravity}} & {UAVs, Short-range Missiles} \\
 Automotive/Industrial & $>$$\SI{10.0}{\milli\gravity}$ & Airbags, Suspension Control \\ \midrule
-\textbf{This Work} & \textbf{$<$$\SI{1.9}{\milli\gravity}$} & \textbf{Sounding Rockets/Low-LEO} \\ \bottomrule
+{This Work} & {$<$$\SI{1.9}{\milli\gravity}$} & {Sounding Rockets/Low-LEO} \\ \bottomrule
 \end{tabular}
 \end{table}
 
@@ -3555,10 +3556,10 @@ The extraction of a single value to represent the nonlinearity from this noisy d
 
 
 \vspace{-6pt}
-
+\textcolor{blue}{Finally, Table \ref{tab:comparison} presents a comparison between the proposed accelerometer and state-of-the-art \gls{fbg}-based sensors reported in recent literature. While the referenced works achieve high sensitivities---often exceeding \SI{1000}{\pico\meter\per\gravity}---they are predominantly designed for seismic and structural monitoring, operating in AC frequency ranges (\SI{>0}{\hertz}) and relying on commercial spectral interrogators. In contrast, the sensor developed in this work focuses on tactical navigation requirements. It employs an embedded differential intensity interrogation system that extends the frequency response down to DC (\SI{0}{\hertz}). Furthermore, as highlighted in the table, the primary performance differentiator of the proposed architecture is the thermal bias stability (below \SI{2}{\milli\gravity}), demonstrating its suitability for inertial navigation systems where long-term stability and \gls{swap} optimization are more critical than absolute sensitivity.}
 \begin{table}[H]
 
-\caption{\hl{Comparisom} %MDPI: Please cite this table in the text and ensure that the first citation of each table appears in numerical order.
+\caption{\hl{Comparison} %MDPI: Please cite this table in the text and ensure that the first citation of each table appears in numerical order.
  of the proposed accelerometer performance with state-of-the-art FBG-based sensors reported in recent literature.}
 \label{tab:comparison}
 \resizebox{\textwidth}{!}{%
@@ -3576,11 +3577,11 @@ force monitoring \\
 \citet{Liu2025} & Integrated Single-Mass  & Micron Optics, SI155& \SI{1025}{\pm\per\gravity} & \SIrange{20}{205}{\hertz} & Low cross-axis error \\
 \citet{cao2025} & Integrated Single-Mass  & Ibsen, IMON 512& \SI{56.5}{\pm\per\gravity} & \SIrange{30}{80}{\hertz} & Structural health monitoring \\
 \citet{VelazquezCarreon2026} & Integrated Single-Mass  & FBG demodulator (unspecified)& \SI{1730}{\pm\per\gravity} & \SIrange{1}{20}{\hertz} & Low-frequency \\ \midrule
-\textbf{\hl{This Work} %MDPI: Please confirm if the bold formatting in the table is necessary; if not, please remove it. 
-} & \textbf{Single Seismic Mass} & \textbf{Diff. Intensity (embedded)} & \textbf{112 \si{\pico\meter\per\gravity}} (differential) & \textbf{DC---440 \si{\hertz}} & \textbf{Thermal Bias Stability (\textless 2 \si{\milli\gravity})} \\ \bottomrule
+{\hl{This Work} %MDPI: Please confirm if the bold formatting in the table is necessary; if not, please remove it. 
+} & {Single Seismic Mass} & {Diff. Intensity (embedded)} & {112 \si{\pico\meter\per\gravity}} (differential) & {DC---440 \si{\hertz}} & {Thermal Bias Stability (\textless 2 \si{\milli\gravity})} \\ \bottomrule
 \end{tabular}%
 }
-\noindent{\footnotesize{\textit{\hl{Note:} %MDPI: Please confirm if the italics are necessary; if not, please remove them. 
+\noindent{\footnotesize{{\hl{Note:} %MDPI: Please confirm if the italics are necessary; if not, please remove them. 
 } The sensitivity units differ due to interrogation methods (wavelength shift vs. intensity voltage output), but the key performance differentiator for navigation is the bias stability.}}
 
 \end{table}
@@ -3832,7 +3833,8 @@ As future work, the following are suggested: the miniaturization of the optical 
 
 % Written informed consent for publication must be obtained from participating patients who can be identified (including by the patients themselves). Please state ``Written informed consent has been obtained from the patient(s) to publish this paper'' if applicable.}
 
-\dataavailability{\hl{~}} %MDPI: We encourage all authors of articles published in MDPI journals to share their research data. In this section, please provide details regarding where data supporting reported results can be found, including links to publicly archived datasets analyzed or generated during the study. Where no new data were created, or where data is unavailable due to privacy or ethical restrictions, a statement is still required. Suggested Data Availability Statements are available in section ``MDPI Research Data Policies'' at \url{https://www.mdpi.com/ethics}.}
+\dataavailability{\hl{~}\textcolor{blue}{The data are available on \url{https://doi.org/10.5281/zenodo.18825983}, accessed on 1 March 2026.}} %MDPI: We encourage all authors of articles published in MDPI journals to share their research data. In this section, please provide details regarding where data supporting reported results can be found, including links to publicly archived datasets analyzed or generated during the study. Where no new data were created, or where data is unavailable due to privacy or ethical restrictions, a statement is still required. Suggested Data Availability Statements are available in section ``MDPI Research Data Policies'' at \url{https://www.mdpi.com/ethics}.}
+
 
 % Only for journal Drones
 %\durcstatement{Current research is limited to the [please insert a specific academic field, e.g., XXX], which is beneficial [share benefits and/or primary use] and does not pose a threat to public health or national security. Authors acknowledge the dual-use potential of the research involving xxx and confirm that all necessary precautions have been taken to prevent potential misuse. As an ethical responsibility, authors strictly adhere to relevant national and international laws about DURC. Authors advocate for responsible deployment, ethical considerations, regulatory compliance, and transparent reporting to mitigate misuse risks and foster beneficial outcomes.}
@@ -4109,7 +4111,7 @@ Kuncar, A.; Sysel, M.; Urbanek, T.
 \bibitem[da~Silva et~al.(2020)da~Silva, Fazzolari, and Correa]{Silva2020b}
 da~Silva, R.D.; Fazzolari, H.A.; Correa, D.P.F.
 \newblock Design And Implementation Of A Real Time Attitude Estimation System with Low Cost Sensors.
-\newblock In Proceedings of the Anais do Congresso Brasileiro de Autom{\'{a}}tica 2020.\hl{ sbabra,  dec 2020.} %MDPI: please replace them with conference address and date.
+\newblock In Proceedings of the Anais do Congresso Brasileiro de Autom{\'{a}}tica 2020.\hl{ sbabra,  dec 2020.} \textcolor{blue}{Porto Alegre, Brazil, 23--26 November 2020.} %MDPI: please replace them with conference address and date.
 \newblock {\url{https://doi.org/10.48011/asba.v2i1.1155}}.
 
 \bibitem[Li and Fang(2013)]{Li2013a}
@@ -4140,7 +4142,7 @@ Timoshenko, S.P.; Gere, J.E.
 \newblock {\em {Mecânica dos Sólidos}}; LTC-Livros Técnicos e Científicos S.A.: Rio de. Janeiro,  Brazil, 1982.
 
 \bibitem[Wallin et~al.(2024)]{allantools}
-Wallin, A.E.E.;  \hl{et~al.} %MDPI: Please write out the first ten authors' names before using “et al.” in the references.
+\textcolor{blue}{Wallin, A.E.E.; Price, D.; Carson, C.G.; Meynadier, F.; Xie, Y.; Benkler, E.} %MDPI: Please write out the first ten authors' names before using “et al.” in the references.
 \newblock AllanTools: A Python Library for Calculating Allan Deviation and Related Time-Frequency Statistics. 2024.
 \newblock  Available online: \url{https://pypi.org/project/AllanTools/}  (accessed on 17 February 2026).
 

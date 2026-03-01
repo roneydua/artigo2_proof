@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.29)  1 MAR 2026 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.29)  1 MAR 2026 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1951,6 +1951,10 @@ st/fonts/enc/dvips/base/8r.enc} <./Definitions/logo-updates-eps-converted-to.pd
 f> <./Definitions/sensors-logo-eps-converted-to.pdf> <./Definitions/logo-mdpi-e
 ps-converted-to.pdf> <./Definitions/logo-orcid.pdf>]
 
+Package natbib Warning: Citation `zhang2024' on page 2 undefined on input line 
+2783.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 17.94797pt, for example:
 (fancyhdr)                \setlength{\headheight}{17.94797pt}.
@@ -1977,7 +1981,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [4]
-<ipe_images_english.pdf, id=217, page=6, 597.23125pt x 503.66771pt>
+<ipe_images_english.pdf, id=219, page=6, 597.23125pt x 503.66771pt>
 File: ipe_images_english.pdf Graphic file (type pdf)
 <use ipe_images_english.pdf, page 6>
 Package pdftex.def Info: ipe_images_english.pdf , page6 used on input line 2839
@@ -2001,19 +2005,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [5 <./ipe_images_english.pdf>]
-<ipe_images_english.pdf, id=301, page=14, 338.63011pt x 190.86507pt>
+<ipe_images_english.pdf, id=303, page=14, 338.63011pt x 190.86507pt>
 File: ipe_images_english.pdf Graphic file (type pdf)
 <use ipe_images_english.pdf, page 14>
 Package pdftex.def Info: ipe_images_english.pdf , page14 used on input line 285
 4.
 (pdftex.def)             Requested size: 338.62927pt x 190.8646pt.
-<main_figure_file_en.pdf, id=307, page=2, 219.08852pt x 204.85533pt>
+<main_figure_file_en.pdf, id=309, page=2, 219.08852pt x 204.85533pt>
 File: main_figure_file_en.pdf Graphic file (type pdf)
 <use main_figure_file_en.pdf, page 2>
 Package pdftex.def Info: main_figure_file_en.pdf , page2 used on input line 287
 1.
 (pdftex.def)             Requested size: 197.17761pt x 184.37434pt.
-<main_figure_file_en.pdf, id=308, page=31, 219.08852pt x 204.85533pt>
+<main_figure_file_en.pdf, id=310, page=31, 219.08852pt x 204.85533pt>
 File: main_figure_file_en.pdf Graphic file (type pdf)
 <use main_figure_file_en.pdf, page 31>
 Package pdftex.def Info: main_figure_file_en.pdf , page31 used on input line 28
@@ -2032,13 +2036,13 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 2877.
 
-<main_figure_file_en.pdf, id=309, page=32, 219.08852pt x 204.85533pt>
+<main_figure_file_en.pdf, id=311, page=32, 219.08852pt x 204.85533pt>
 File: main_figure_file_en.pdf Graphic file (type pdf)
 <use main_figure_file_en.pdf, page 32>
 Package pdftex.def Info: main_figure_file_en.pdf , page32 used on input line 29
 00.
 (pdftex.def)             Requested size: 197.17761pt x 184.37434pt.
-<main_figure_file_en.pdf, id=310, page=33, 219.08852pt x 204.85533pt>
+<main_figure_file_en.pdf, id=312, page=33, 219.08852pt x 204.85533pt>
 File: main_figure_file_en.pdf Graphic file (type pdf)
 <use main_figure_file_en.pdf, page 33>
 Package pdftex.def Info: main_figure_file_en.pdf , page33 used on input line 29
@@ -2063,17 +2067,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [7 <./main_figure_file_en.pdf> <./main_figure_file_en.pdf>]
-<ipe_images_english.pdf, id=438, page=13, 360.84724pt x 122.57092pt>
+<ipe_images_english.pdf, id=440, page=13, 360.84724pt x 122.57092pt>
 File: ipe_images_english.pdf Graphic file (type pdf)
 <use ipe_images_english.pdf, page 13>
-Package pdftex.def Info: ipe_images_english.pdf , page13 used on input line 297
-9.
+Package pdftex.def Info: ipe_images_english.pdf , page13 used on input line 298
+0.
 (pdftex.def)             Requested size: 394.35522pt x 133.95313pt.
-<main_figure_file_en.pdf, id=439, page=30, 226.19507pt x 147.95274pt>
+<main_figure_file_en.pdf, id=441, page=30, 226.19507pt x 147.95274pt>
 File: main_figure_file_en.pdf Graphic file (type pdf)
 <use main_figure_file_en.pdf, page 30>
 Package pdftex.def Info: main_figure_file_en.pdf , page30 used on input line 29
-85.
+86.
 (pdftex.def)             Requested size: 226.1945pt x 147.95236pt.
 
 
@@ -2085,11 +2089,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [8]
-<plot_time_elapsed_fbg_production_en.pdf, id=460, 454.57831pt x 256.0748pt>
+<plot_time_elapsed_fbg_production_en.pdf, id=462, 454.57831pt x 256.0748pt>
 File: plot_time_elapsed_fbg_production_en.pdf Graphic file (type pdf)
 <use plot_time_elapsed_fbg_production_en.pdf>
 Package pdftex.def Info: plot_time_elapsed_fbg_production_en.pdf  used on input
- line 3011.
+ line 3012.
 (pdftex.def)             Requested size: 394.35522pt x 222.15417pt.
 
 
@@ -2110,16 +2114,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [10 <./plot_time_elapsed_fbg_production_en.pdf>]
-<fbg_acc_4_en.pdf, id=610, 454.57831pt x 340.93373pt>
+<fbg_acc_4_en.pdf, id=612, 454.57831pt x 340.93373pt>
 File: fbg_acc_4_en.pdf Graphic file (type pdf)
 <use fbg_acc_4_en.pdf>
-Package pdftex.def Info: fbg_acc_4_en.pdf  used on input line 3042.
+Package pdftex.def Info: fbg_acc_4_en.pdf  used on input line 3043.
 (pdftex.def)             Requested size: 394.35522pt x 295.77238pt.
-<main_figure_file_en.pdf, id=614, page=37, 389.80632pt x 227.62039pt>
+<main_figure_file_en.pdf, id=616, page=37, 389.80632pt x 227.62039pt>
 File: main_figure_file_en.pdf Graphic file (type pdf)
 <use main_figure_file_en.pdf, page 37>
 Package pdftex.def Info: main_figure_file_en.pdf , page37 used on input line 30
-69.
+70.
 (pdftex.def)             Requested size: 389.80536pt x 227.61983pt.
 
 
@@ -2149,10 +2153,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [13]
-<acc_4_power_vs_accel_en.pdf, id=701, 454.57831pt x 256.0748pt>
+<acc_4_power_vs_accel_en.pdf, id=703, 454.57831pt x 256.0748pt>
 File: acc_4_power_vs_accel_en.pdf Graphic file (type pdf)
 <use acc_4_power_vs_accel_en.pdf>
-Package pdftex.def Info: acc_4_power_vs_accel_en.pdf  used on input line 3155.
+Package pdftex.def Info: acc_4_power_vs_accel_en.pdf  used on input line 3156.
 (pdftex.def)             Requested size: 394.35522pt x 222.15417pt.
 
 
@@ -2183,7 +2187,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [16]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-218.
+219.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -2191,10 +2195,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<ipe_images_english.pdf, id=747, page=3, 209.24474pt x 156.96442pt>
+<ipe_images_english.pdf, id=749, page=3, 209.24474pt x 156.96442pt>
 File: ipe_images_english.pdf Graphic file (type pdf)
 <use ipe_images_english.pdf, page 3>
-Package pdftex.def Info: ipe_images_english.pdf , page3 used on input line 3232
+Package pdftex.def Info: ipe_images_english.pdf , page3 used on input line 3233
 .
 (pdftex.def)             Requested size: 177.45863pt x 133.12578pt.
 
@@ -2217,10 +2221,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [18]
-<uncalibrated_data_en.png, id=850, 454.44781pt x 369.12906pt>
+<uncalibrated_data_en.png, id=852, 454.44781pt x 369.12906pt>
 File: uncalibrated_data_en.png Graphic file (type png)
 <use uncalibrated_data_en.png>
-Package pdftex.def Info: uncalibrated_data_en.png  used on input line 3289.
+Package pdftex.def Info: uncalibrated_data_en.png  used on input line 3290.
 (pdftex.def)             Requested size: 354.91728pt x 288.28561pt.
 
 
@@ -2241,10 +2245,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [20 <./uncalibrated_data_en.png>]
-<linearity_graphic_acc4_en.pdf, id=876, 454.57831pt x 256.0748pt>
+<linearity_graphic_acc4_en.pdf, id=878, 454.57831pt x 256.0748pt>
 File: linearity_graphic_acc4_en.pdf Graphic file (type pdf)
 <use linearity_graphic_acc4_en.pdf>
-Package pdftex.def Info: linearity_graphic_acc4_en.pdf  used on input line 3347
+Package pdftex.def Info: linearity_graphic_acc4_en.pdf  used on input line 3348
 .
 (pdftex.def)             Requested size: 394.35522pt x 222.15417pt.
 
@@ -2257,21 +2261,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [21 <./linearity_graphic_acc4_en.pdf>]
-<collected_data_acc4_calibration_test_7_20240806_en.pdf, id=903, 454.44781pt x 
+<collected_data_acc4_calibration_test_7_20240806_en.pdf, id=905, 454.44781pt x 
 284.06125pt>
 File: collected_data_acc4_calibration_test_7_20240806_en.pdf Graphic file (type
  pdf)
 <use collected_data_acc4_calibration_test_7_20240806_en.pdf>
 Package pdftex.def Info: collected_data_acc4_calibration_test_7_20240806_en.pdf
-  used on input line 3388.
+  used on input line 3389.
 (pdftex.def)             Requested size: 374.63625pt x 234.17569pt.
-<calibrated_data_acc_4_calibration_test_7_20240806_en.pdf, id=904, 454.44781pt 
+<calibrated_data_acc_4_calibration_test_7_20240806_en.pdf, id=906, 454.44781pt 
 x 355.07657pt>
 File: calibrated_data_acc_4_calibration_test_7_20240806_en.pdf Graphic file (ty
 pe pdf)
 <use calibrated_data_acc_4_calibration_test_7_20240806_en.pdf>
 Package pdftex.def Info: calibrated_data_acc_4_calibration_test_7_20240806_en.p
-df  used on input line 3398.
+df  used on input line 3399.
 (pdftex.def)             Requested size: 374.63625pt x 292.71964pt.
 
 
@@ -2283,12 +2287,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [22 <./collected_data_acc4_calibration_test_7_20240806_en.pdf>]
-<data_allan_deviation_acc_4_20240814_en.png, id=942, 454.44781pt x 426.09187pt>
+<data_allan_deviation_acc_4_20240814_en.png, id=944, 454.44781pt x 426.09187pt>
 
 File: data_allan_deviation_acc_4_20240814_en.png Graphic file (type png)
 <use data_allan_deviation_acc_4_20240814_en.png>
 Package pdftex.def Info: data_allan_deviation_acc_4_20240814_en.png  used on in
-put line 3414.
+put line 3415.
 (pdftex.def)             Requested size: 394.35522pt x 369.7542pt.
 
 
@@ -2300,11 +2304,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [23 <./calibrated_data_acc_4_calibration_test_7_20240806_en.pdf>]
-<allan_deviation_acc_4_20240814_en.pdf, id=990, 454.57831pt x 284.11142pt>
+<allan_deviation_acc_4_20240814_en.pdf, id=992, 454.57831pt x 284.11142pt>
 File: allan_deviation_acc_4_20240814_en.pdf Graphic file (type pdf)
 <use allan_deviation_acc_4_20240814_en.pdf>
 Package pdftex.def Info: allan_deviation_acc_4_20240814_en.pdf  used on input l
-ine 3440.
+ine 3441.
 (pdftex.def)             Requested size: 394.35522pt x 246.47696pt.
 
 
@@ -2325,12 +2329,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [25 <./allan_deviation_acc_4_20240814_en.pdf>]
-<calibration_with_temperature_dependency_en.png, id=1038, 454.44781pt x 426.091
+<calibration_with_temperature_dependency_en.png, id=1040, 454.44781pt x 426.091
 87pt>
 File: calibration_with_temperature_dependency_en.png Graphic file (type png)
 <use calibration_with_temperature_dependency_en.png>
 Package pdftex.def Info: calibration_with_temperature_dependency_en.png  used o
-n input line 3491.
+n input line 3492.
 (pdftex.def)             Requested size: 394.35522pt x 369.7542pt.
 
 
@@ -2342,12 +2346,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [26 <./calibration_with_temperature_dependency_en.png (PNG copy)>]
-<linearity_with_respect_to_full_scale_en.png, id=1051, 454.44781pt x 568.1225pt
+<linearity_with_respect_to_full_scale_en.png, id=1053, 454.44781pt x 568.1225pt
 >
 File: linearity_with_respect_to_full_scale_en.png Graphic file (type png)
 <use linearity_with_respect_to_full_scale_en.png>
 Package pdftex.def Info: linearity_with_respect_to_full_scale_en.png  used on i
-nput line 3516.
+nput line 3517.
 (pdftex.def)             Requested size: 323.37416pt x 404.26268pt.
 
 Package siunitx Info: Option "scientific-notation = true" has been deprecated
@@ -2371,6 +2375,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-5.94797pt}.
 
 [27 <./linearity_with_respect_to_full_scale_en.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 3565--3586
+[][]
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 17.94797pt, for example:
@@ -2399,6 +2407,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [30]
 
+Package natbib Warning: There were undefined citations.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 17.94797pt, for example:
 (fancyhdr)                \setlength{\headheight}{17.94797pt}.
@@ -2423,13 +2434,13 @@ Package rerunfilecheck Info: File `sensors-4128033-english.out' has not changed
 (rerunfilecheck)             Checksum: FB39F6D6327877D701E8930E94F98D08;4274.
  ) 
 Here is how much of TeX's memory you used:
- 71100 strings out of 476089
- 1576420 string characters out of 5793232
- 2233030 words of memory out of 5000000
- 91402 multiletter control sequences out of 15000+600000
- 679965 words of font info for 671 fonts, out of 8000000 for 9000
+ 71082 strings out of 476089
+ 1576238 string characters out of 5793232
+ 2232030 words of memory out of 5000000
+ 91400 multiletter control sequences out of 15000+600000
+ 678470 words of font info for 661 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
- 123i,19n,124p,5061b,1309s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,16n,124p,5061b,1307s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
@@ -2445,10 +2456,10 @@ s/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb
 xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/wasy-type1/wasy10.pfb>
-Output written on sensors-4128033-english.pdf (31 pages, 6072949 bytes).
+Output written on sensors-4128033-english.pdf (31 pages, 6073898 bytes).
 PDF statistics:
- 1229 PDF objects out of 1440 (max. 8388607)
- 882 compressed objects within 9 object streams
+ 1231 PDF objects out of 1440 (max. 8388607)
+ 884 compressed objects within 9 object streams
  160 named destinations out of 1000 (max. 500000)
- 147234 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 143138 words of extra memory for PDF output out of 154059 (max. 10000000)
 

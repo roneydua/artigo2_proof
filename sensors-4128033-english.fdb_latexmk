@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1772373726.84788 "sensors-4128033-english.tex" "sensors-4128033-english.pdf" "sensors-4128033-english" 1772373730.05916 0
+["pdflatex"] 1772386855.50752 "sensors-4128033-english.tex" "sensors-4128033-english.pdf" "sensors-4128033-english" 1772386858.91077 0
   "/etc/texmf/web2c/texmf.cnf" 1742392817.99568 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -7,7 +7,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm" 1136768653 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm" 1136768653 3456 16dd534f88eb2bd21ebc7203786b436e ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplbi8r.tfm" 1136768653 2788 e071e05f6ae1a90dbbbc13a193c3a135 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplbi8t.tfm" 1136768653 3788 23f75d701871fed6ba2bf32f67976132 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm" 1136768653 1804 7b5f73028f6509167f47ace9d69509ed ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8c.tfm" 1136768653 1348 0e8eb69b4437626c0f6c9bed4a4e373c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm" 1136768653 2796 d37c29814a6717720ee1a7c9a0b2c3b8 ""
@@ -66,7 +65,6 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb" 1136849748 50022 90249cba7e3e4e9845f80328d6f9bd13 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf" 1136768653 1380 798ef26de8f0a21f37c9b1147f4fe5d8 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf" 1136768653 2316 c3899bd8afb459a9a5a9a546bf3029a2 ""
-  "/usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplbi8t.vf" 1136768653 2328 2c4c0c8f8d191e4e9817ad6b330c3cdd ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf" 1136768653 1380 037725697594405988999f61172f52de ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplr8c.vf" 1136768653 3504 f65f653e1ad318a9d01b4af15300683a ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf" 1136768653 2324 a163806de13ddf37313d2ee968aa0a98 ""
@@ -358,9 +356,9 @@
   "linearity_with_respect_to_full_scale_en.png" 1772180660.48046 760694 3502c9f9f87e2b435ca5f3094d7c75b8 ""
   "main_figure_file_en.pdf" 1771301726 305299 009acbe6b93267c9484da523bebbdc3b ""
   "plot_time_elapsed_fbg_production_en.pdf" 1772181085.15141 573040 929616653ef5f23a0868de1d249587f7 ""
-  "sensors-4128033-english.aux" 1772373729.9138 36510 8cb8182a900aa4af9f73d836267d0724 "pdflatex"
-  "sensors-4128033-english.out" 1772373729.9198 4274 fb39f6d6327877d701e8930e94f98d08 "pdflatex"
-  "sensors-4128033-english.tex" 1772295946.86928 227152 5e632f480031f1194f758ce6787219b5 ""
+  "sensors-4128033-english.aux" 1772386858.74631 36502 65eb71fafb2cec61b0a7147952c1e89d "pdflatex"
+  "sensors-4128033-english.out" 1772386858.75131 4274 fb39f6d6327877d701e8930e94f98d08 "pdflatex"
+  "sensors-4128033-english.tex" 1772386839.79344 228137 79bb991b1d2145f785da651e11a77ed0 ""
   "uncalibrated_data_en.png" 1771301726 326725 1f7427500376748ca8894f5ce78d804e ""
   (generated)
   "sensors-4128033-english.aux"

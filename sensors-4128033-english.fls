@@ -949,8 +949,6 @@ INPUT ./allan_deviation_acc_4_20240814_en.pdf
 INPUT ./allan_deviation_acc_4_20240814_en.pdf
 INPUT ./allan_deviation_acc_4_20240814_en.pdf
 INPUT ./allan_deviation_acc_4_20240814_en.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplbi8t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplbi8t.vf
 INPUT ./calibration_with_temperature_dependency_en.png
 INPUT ./calibration_with_temperature_dependency_en.png
 INPUT ./calibration_with_temperature_dependency_en.png
