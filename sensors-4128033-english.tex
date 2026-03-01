@@ -2404,7 +2404,7 @@ description={Resistor}
 \newcommand{\orcidauthorB}{0000-0001-5246-5115} % Add \orcidB{} behind the author's name
 
 % Authors, for the paper (add full first names)
-\Author{\hl{Roney Duarte da Silva} %MDPI: 1. Please carefully check the accuracy of names and affiliations. 2. The email address highlighted is different from the one submitted online at susy.mdpi.com. Please confirm which is correct.
+\Author{\hl{Roney Duarte da Silva} %MDPI: 1. Please carefully check the accuracy of names and affiliations. RESPONSE: The names and affiliations are correct. The fisrt affiliation of Roney Duarte da Silva is Aeronautics Institute of Technology and his second affiliation is IEAv. On the other hand, the first affiliation of João M. S. Sakamoto is IEAv, while its second is ITA. So please keep it Roney Duarte da Silva 1,2 and João Marcos Salvi Sakamoto 2,1. 2. The email address highlighted is different from the one submitted online at susy.mdpi.com. Please confirm which is correct. RESPONSE: The correct email is the joao.sakamoto@gp.ita.br. The other email is a personal one (saka2009br@gmail.com) used only to login into the Suzy system.
  $^{1,2}$\orcidA{} and João Marcos Salvi Sakamoto $^{2,1,*}$\orcidB{} }
 
 %\longauthorlist{yes}
@@ -2430,10 +2430,10 @@ description={Resistor}
 % Affiliations / Addresses (Add [1] after \address if there is only one affiliation.)
 \address{%
 $^{1}$ \quad Graduate Program in Science and Space Technologies, Aeronautics Institute of Technology (ITA),
-\hl{São José dos Campos} %MDPI: please provide english format of city, same as aff. 2. Response: "São José dos Campos" is a proper noun (the name of the city) and does not have a English translation. Please keep it as "São João dos Campos".
- 12228-900, \hl{SP,}  %MDPI: Please confirm if keep it, same as aff. 2. Response: "SP" stands for the state of São Paulo. Please keep it in both affiliations, as it follows the standard format: City, State, Zip Code, Country.
+\hl{Sao Jose dos Campos,} %MDPI: please provide english format of city, same as aff. 2. Response: "São José dos Campos" is a proper noun (the name of the city) and does not have a English translation. To write it in English, the best we can do is to drop the accents: "Sao Jose dos Campos".
+ \hl{SP} 12228-900,  %MDPI: Please confirm if keep it, same as aff. 2. Response: "SP" stands for the state of São Paulo. Please keep it in both affiliations, as it follows the standard format: City, State, Zip Code, Country.
  Brazil; roneyddasilva@gmail.com\\
-$^{2}$ \quad Division of Photonics, Institute for Advanced Studies (IEAv), \hl{São José dos Campos} 12228-001, \hl{SP,} Brazil}
+$^{2}$ \quad Division of Photonics, Institute for Advanced Studies (IEAv), \hl{Sao Jose dos Campos,} \hl{SP} 12228-001, Brazil}
 
 % Contact information of the corresponding author
 \corres{Correspondence: joao.sakamoto@gp.ita.br}
@@ -2453,7 +2453,7 @@ $^{2}$ \quad Division of Photonics, Institute for Advanced Studies (IEAv), \hl{S
 	space navigation applications. The sensor employs a single seismic mass architecture, whose acceleration-induced displacement deforms six \glspl{fo}, forming twelve \glspl{fiberSegment} that act as elastic elements, with the strain measured by \glspl{fbg} inscribed in each fiber. The methodology ranges from the manufacturing and spectral characterization of the FBGs to the design of a differential optical interrogation system and a low-noise signal conditioning circuit. A cornerstone of this work is the proposal of an extended calibration model that, in addition to the conventional sensitivity matrix and bias vector parameters, incorporates polynomial terms to actively compensate for the effects of temperature variation. This model was validated through tests in a climatic chamber, subjecting the sensor to different orientations and controlled temperatures. The experimental results validate the design's effectiveness, demonstrating that the accelerometer achieves tactical-grade performance with a bias instability below $\SI{1.9}{\milli\gravity}$ for all axes. The analysis confirmed that the sensor's effective full-scale range is approximately $\pm20 \si{\gravity}$, and sensitivity of \SI{112}{\pico\meter\per\gravity}, limited by the nature of the optical interrogation system. Furthermore, a third-order polynomial thermal compensation model was shown to provide the most efficient balance between model complexity and error reduction, reducing errors to a level dominated by the system's intrinsic noise and ensuring the sensor's accuracy over a wide operational temperature~range.}
 
 % Keywords
-\keyword{\highlighting{fiber} %MDPI: Please confirm case in keywords.
+\keyword{\highlighting{fiber} %MDPI: Please confirm case in keywords. Response: We prefer to keep the keywords in lowercase, except for proper nouns (e.g., FBG), in accordance with our interpretation of the journal's formatting guidelines. https://www.mdpi.com/authors/english-editing
  Bragg grating (FBG); optical accelerometer; temperature calibration; inertial navigation; optomechanical design}
 
 % The fields PACS, MSC, and JEL may be left empty or commented out if not applicable
@@ -2780,7 +2780,7 @@ Although conventional technologies, such as piezoelectric accelerometers and tho
 
 
 
-Since these foundational works, the technology has evolved considerably, particularly concerning ingenious structural topologies \citep{cao2025,chen2025,VelazquezCarreon2026,Qiu2025,Liu2025,zhang2025,wang2025,duan2024,zhang2025inclined,fan2025,teng2024a,li2024a,zhang2024,Qiu2023}. Although the spring-mass topology remains prevalent due to its mechanical robustness, alternative configurations have been explored \citep{Wang2023}. Recent studies have reported sensors based on multi-core fibers \citep{Zhou2021}, as well as off-axis FBGs and flexible filament-based designs capable of multidimensional vibration sensing without bulky seismic masses, as reviewed by \citet{Guo2021}.
+Since these foundational works, the technology has evolved considerably, particularly concerning ingenious structural topologies \citep{cao2025,chen2025,VelazquezCarreon2026,Qiu2025,Liu2025,zhang2025,wang2025,duan2024,zhang2025inclined,fan2025,teng2024a,li2024a,Zhang2024,Qiu2023}. Although the spring-mass topology remains prevalent due to its mechanical robustness, alternative configurations have been explored \citep{Wang2023}. Recent studies have reported sensors based on multi-core fibers \citep{Zhou2021}, as well as off-axis FBGs and flexible filament-based designs capable of multidimensional vibration sensing without bulky seismic masses, as reviewed by \citet{Guo2021}.
 
 Significant improvements in sensitivity have been observed. An integrated single-mass triaxial design was investigated by \citet{Liu2025}, demonstrating superior consistency between {axis} sensitivities (\SIrange{98}{217}{\pico\meter\per\gravity}) and low cross-axis error ($<$$\SI{9.5}{\%}$). A low-frequency (\SIrange{1}{40}{\hertz}) dual-mass sensor was proposed by \citet{Qiu2023}, achieving high sensitivity (\SI{1194}{\pico\meter\per\gravity}) and linearity ($R^2 = \SI{99.98}{\percent}$), making it suitable for infrastructure monitoring.
 \textls[-15]{Beyond structural topology, recent research has also focused on manufacturing materials and cross-sensitivity decoupling. Low-frequency vibration sensors integrating \glspl{fbg} into 3D-printed bridge-type flexure hinges were developed by \citet{VelazquezCarreon2026}. It was demonstrated that varying geometric parameters enables tuning of the dynamic response, achieving sensitivities up to \SI{1730}{\pico\meter\per\gravity} in the \SIrange{1}{20}{\hertz} range. Regarding seismic applications, a cross-diaphragm structure optimized for the \SIrange{0.1}{50}{\hertz} range with a sensitivity of \SI{590}{\pico\meter\per\gravity} was developed by~\citet{Zhang2024},} while a five-fold sensitivity increase ($\approx$$\SI{2150}{\pico\meter\per\gravity}$) was achieved by \citet{Chen2021} through the utilization of fibers with reduced cladding diameter ($\SI{50}{\micro\meter}$), validating a dynamic resolution of \SI{0.1}{\milli\gravity}.
@@ -2800,7 +2800,7 @@ Another critical and often overlooked aspect in these developments is the rigoro
 In summary, to address the identified gaps---specifically the lack of system-level thermal compensation and the absence of rigorous stochastic noise quantification for navigation---the main contributions of this study are consolidated as follows:
 
 \begin{enumerate}
-    \item {\hl{Embedded} %MDPI: Please confirm if the bold formatting in the paper is necessary; if not, please remove it. 
+    \item {\hl{Embedded} %MDPI: Please confirm if the bold formatting in the paper is necessary; if not, please remove it. Response: The bold formatting has been removed.  Response: The formatting is correct as is, since the term refers to the equation itself and is not a equation number.
  Intensity-Based Interrogation:} Development of a custom, low-cost, and compact interrogation system that enables DC-coupled acceleration measurements, overcoming the \gls{swap} limitations of commercial spectral interrogators.
     \item {System-Level Calibration Model:} Proposal of an extended polynomial calibration methodology that compensates for the aggregate thermal non-linearities of the entire optoelectronic chain (source, couplers, and detectors), surpassing the limitations of transducer-only compensation.
     \item {Rigorous Stability Analysis:} A comprehensive characterization of the sensor's long-term bias instability and \gls{vrw} using Allan Variance, validating its performance against tactical-grade navigation requirements.
@@ -2837,7 +2837,7 @@ The proposed sensor is a modified version of the concept by Cazo \cite{Cazo2008}
 
 	\begin{figure}[H]
 	\includegraphics[page=6,width=0.5\textwidth]{ipe_images_english.pdf}
-		\caption{Three-dimensional CAD rendering of the  \glsentryname{aom} assembly. The internal seismic mass (pink) is suspended from the outer fixed frame (purple supports) solely by the \glspl{fo} (blue lines). The mounting points on the \hl{base} %MDPI: Please confirm if keep bold in equations, please check the whole manuscript and confirm. And please make sure no duplicated equations and all equations labels are in order in the paper.
+		\caption{Three-dimensional CAD rendering of the  \glsentryname{aom} assembly. The internal seismic mass (pink) is suspended from the outer fixed frame (purple supports) solely by the \glspl{fo} (blue lines). The mounting points on the \hl{base} %MDPI: Please confirm if keep bold in equations, please check the whole manuscript and confirm. And please make sure no duplicated equations and all equations labels are in order in the paper. Response: We confirm that the bold formatting in the equations and text must be kept, as it is standard mathematical notation to distinguish vectors from scalars. To clarify this, we have added a sentence explicitly stating this convention upon the first appearance of these variables in the text. All equation labels have been checked and are in numerical order.
  ($\conexaoBase_{n}$) and on the mass ($\conexaoMassaSismica_{n}$) define the active sensing segments where the \glspl{fbg} are located.\label{fig:-47}}
 		
 		
@@ -2845,7 +2845,7 @@ The proposed sensor is a modified version of the concept by Cazo \cite{Cazo2008}
 	\end{figure}
 	
 
-A crucial distinction must be made between the physical \gls{fo} and the functional \gls{fiberSegment}. As observed in \cref{fig:sensor_assembly}, the \gls{fo} is a continuous glass strand installed on the structure. However, this fiber is rigidly attached to the seismic mass using epoxy resin at points denoted by $\conexaoMassaSismica_{n}$ (highlighted in cyan), and to the fixed base at points $\conexaoBase_{n}$ (highlighted in light magenta). Mechanically, the specific section of fiber spanning between a base point $\conexaoBase_{n}$ and its corresponding mass point $\conexaoMassaSismica_{n}$ acts as an isolated elastic element. Therefore, for mechanical analysis, this active span is termed \gls{fiberSegment} $n$ (or $\text{\fiberSegment}_{n}$), effectively behaving as an individual spring element whose strain is measured via an inscribed \gls{fbg}. Twelve such fiber segments are implemented in this design, four per axis.
+A crucial distinction must be made between the physical \gls{fo} and the functional \gls{fiberSegment}. As observed in \cref{fig:sensor_assembly}, the \gls{fo} is a continuous glass strand installed on the structure. However, this fiber is rigidly attached to the seismic mass using epoxy resin at points denoted by $\conexaoMassaSismica_{n}$ (highlighted in cyan), and to the fixed base at points $\conexaoBase_{n}$ (highlighted in light magenta). \textcolor{blue}{Note that, throughout this manuscript, bold mathematical symbols denote vectors. }Mechanically, the specific section of fiber spanning between a base point $\conexaoBase_{n}$ and its corresponding mass point $\conexaoMassaSismica_{n}$ acts as an isolated elastic element. Therefore, for mechanical analysis, this active span is termed \gls{fiberSegment} $n$ (or $\text{\fiberSegment}_{n}$), effectively behaving as an individual spring element whose strain is measured via an inscribed \gls{fbg}. Twelve such fiber segments are implemented in this design, four per axis.
 
 Conversely, from the perspective of the optical interrogation circuit, the fiber paths remain optically continuous. As seen in the assembly photo, the light entering at point $\conexaoBase_{1}$ travels through the segment $\text{\fiberSegment}_1$, loops around, and exits through the opposing segment~(e.g., at point $\conexaoBase_{3}$). Thus, one continuous \gls{fo} connects two opposing sensing points. However, due to the rigid bonding at the $\conexaoMassaSismica_{n}$ points, the mechanical deformation of one segment (e.g., $\text{\fiberSegment}_1$) is decoupled from the deformation of the corresponding return segment ($\text{\fiberSegment}_3$). It is this mechanical independence, despite the optical continuity, that is leveraged for the differential measurement scheme.
 
@@ -2905,7 +2905,7 @@ Conversely, from the perspective of the optical interrogation circuit, the fiber
 		}
 		\vspace{6pt}
 		\end{adjustwidth}
-\caption{\hl{Connections} %MDPI: Please confirm whether the overlapping/incomplete content in this figure affects scientific understanding and if it does, please revise it.
+\caption{\hl{Connections} %MDPI: Please confirm whether the overlapping/incomplete content in this figure affects scientific understanding and if it does, please revise it. Response: We confirm that the current layout of the figure is correct and does not affect its scientific understanding.
  of the seismic mass to the sensor base and its behavior under acceleration connections of the seismic mass to the sensor base and its behavior under acceleration.
 		The \glspl{fiberSegment} are numbered from $\text{\fiberSegment}_{1}$ to $\text{\fiberSegment}_{12}$,
 		corresponding to the attachment points $\conexaoBase_{1}$
@@ -2942,7 +2942,7 @@ The diffraction half-angle ($\theta$) of the first-order beams ($m\pm 1$) genera
 	\theta=\arcsin\frac{m\,\wavelengthLaser}{\phaseMaskPeriod}.\label{eq:-117}
 \end{equation}
 
-\hl{The} %MDPI: Please check if keep no indent format of paragraph, please check the whole manuscript and confirm.
+\hl{The} %MDPI: Please check if keep no indent format of paragraph, please check the whole manuscript and confirm. Response: Confirmed and fixed in the manuscript.
  experimental setup comprises a \gls{uv} laser ($\wavelengthLaser=\SI{244}{\nm}$, with an output power of \SI{100}{\mW}), a phase mask ($\phaseMaskPeriod=\SI{1052.6}{\nm}$), two directional mirrors, an \gls{fo} holder, and a shutter for exposure time control. Substituting the experimental parameters into \cref{eq:-117}, the diffraction half-angle is calculated as:
 \begin{equation}
 	\theta=\arcsin\frac{\num{1}\cdot\num{244e-9}}{\num{1052.6e-9}}\approx\ang{13.4}.\label{eq:-118}
@@ -3041,7 +3041,7 @@ Each axis utilizes an identical differential interrogation circuit composed of a
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{fbg_acc_4_en.pdf}
-	\caption{\hl{The} %MDPI: 1. Figures should be put after their first citations, please confirm positions of all figures. Except for some in order to reduce too much space. 2. To reduce white space, we have not placed it where it is first mentioned, please confirm.
+	\caption{\hl{The} %MDPI: 1. Figures should be put after their first citations, please confirm positions of all figures. Except for some in order to reduce too much space. 2. To reduce white space, we have not placed it where it is first mentioned, please confirm. Response: The figures are ok.
  \gls{fbg} labels in the graphics correspond to the respective \glspl{fiberSegment} illustrated in \cref{fig:fig1}. For instance, the curve designated \gls{fbg} 1 corresponds to the specific grating inscribed on the fiber segment $\text{\fiberSegment}_{1}$, which is defined by points $\mathbf{b}_1$ and $\mathbf{m}_1$.  \protect\label{fig:-61}}
 	
 	
@@ -3288,8 +3288,8 @@ Although geometric fitting methods exist \citep{Markovsky2004}, the algebraic \g
 For the thermal characterization, the calibration procedure was repeated at different controlled temperatures (\SI{16}{\celsius}, \SI{24}{\celsius}, and \SI{45}{\celsius}) using a testbed with temperature control and three-degree-of-freedom rotation. \cref{fig:dados_adquiridos_ensaio_temperatura} presents the data acquired for calibration, already normalized by the reference measurement. The test is performed by pointing one axis at a time vertically downwards and upwards. The first axis was the $\mathbf{z}$-axis, with a \SI{180}{\degree} rotation around the $\mathbf{y}$-axis. Then, the $\mathbf{x}$-axis was subjected to the same procedure, followed by the $\mathbf{y}$-axis.
 \begin{figure}[H]
 \includegraphics[width=0.9\columnwidth]{uncalibrated_data_en.png}
-	\caption{\hl{Data} %MDPI: Please confirm whether an explanation of the colors needs to be added to the figure caption.
- acquired for calibration under controlled temperature conditions. At the top of the graph, the axis that is parallel to the gravity vector is indicated, where the notation $\mathbf{z}\downarrow$ signifies that  the{ respective axis ($\mathbf{z}$) is oriented downward. In this setup, the other two axes are orthogonal to gravity and, ideally, should exhibit zero measurement. However, the acquired data reveals significant cross-axis coupling effects. The subsequent section {presenting the} results demonstrates the capability of the proposed calibration method to effectively correct these parasitic effects.}}	\label{fig:dados_adquiridos_ensaio_temperatura}
+	\caption{\hl{Data} %MDPI: Please confirm whether an explanation of the colors needs to be added to the figure caption. Response. We add a explanation on figure label.
+ acquired for calibration under controlled temperature conditions. \textcolor{blue}{The colors purple, magenta, and yellow represent \SI{16}{\celsius}, \SI{24}{\celsius}, and \SI{45}{\celsius}, respectively}. At the top of the graph, the axis that is parallel to the gravity vector is indicated, where the notation $\mathbf{z}\downarrow$ signifies that  the{ respective axis ($\mathbf{z}$) is oriented downward. In this setup, the other two axes are orthogonal to gravity and, ideally, should exhibit zero measurement. However, the acquired data reveals significant cross-axis coupling effects. The subsequent section {presenting the} results demonstrates the capability of the proposed calibration method to effectively correct these parasitic effects.}}	\label{fig:dados_adquiridos_ensaio_temperatura}
 \end{figure}
 
 \vspace{12pt}
@@ -3312,7 +3312,7 @@ The first experimental stage consisted of validating the signal conditioning cir
 
 \begin{table}[H]
 \setlength{\tabcolsep}{2.8mm}
-	\caption{\hl{Measured} %MDPI: we added a line in the table. Please confirm.
+	\caption{\hl{Measured} %MDPI: we added a line in the table. Please confirm.  Response: Confirmed.
  power values at rest and conditioning circuit components for each channel.\protect\label{tab:-2}}
 
 	\centering{}%
@@ -3323,10 +3323,10 @@ The first experimental stage consisted of validating the signal conditioning cir
 		                    &                                & \textbf{Calculated}                                     & \textbf{Used}                                             & \textbf{Calculated}                                   & \textbf{Used} \boldmath{$\left(\frequenciaCorteFiltroPassaBaixa\right)$ }\\
 		\cmidrule{1-6}
 		{99}{\%} & $\SI{11}{\mW}$                 &                                                &                                                  &                                              &                                                      \\
-		{1}{\%}  & $\SI{101}{\uW}$                & $\SI{17,5}{\kohm}$                             & $\SI{16}{\kohm}$                                 & $\SI{7,8}{\uF}$                              & $\SI{10}{\uF}\left(\SI{1}{\hertz}\right)$            \\
-		$\basex$            & $\SI{730}{\nano\watt}$         & \multicolumn{2}{c}{$\SI{2,4}{\Mohm}$}          & $\SI{52,4}{\nF}$                                 & $\SI{47}{\nF}\left(\SI{1.7}{\hertz}\right)$                                                         \\
-		$\basey$            & $\SI{1,4}{\uW}$                & \multicolumn{2}{c}{$\SI{1,2}{\Mohm}$}          & $\SI{104,7}{\nF}$                                & $\SI{100}{\nF}\left(\SI{1.3}{\hertz}\right)$                                                        \\
-		$\basez$            & $\SI{2}{\uW}$                  & $\SI{886}{\kohm}$                              & $\SI{820}{\kohm}$                                & $\SI{153,2}{\nF}$                            & \hl{$100+\SI{47}{\nF}\left(\SI{1.3}{\hertz}\right)$} %MDPI: Please confirm if  keep no space before (.
+		{1}{\%}  & $\SI{101}{\uW}$                & $\SI{17,5}{\kohm}$                             & $\SI{16}{\kohm}$                                 & $\SI{7,8}{\uF}$                              & $\SI{10}{\uF}\;\left(\SI{1}{\hertz}\right)$            \\
+		$\basex$            & $\SI{730}{\nano\watt}$         & \multicolumn{2}{c}{$\SI{2,4}{\Mohm}$}          & $\SI{52,4}{\nF}$                                 & $\SI{47}{\nF}\;\left(\SI{1.7}{\hertz}\right)$                                                         \\
+		$\basey$            & $\SI{1,4}{\uW}$                & \multicolumn{2}{c}{$\SI{1,2}{\Mohm}$}          & $\SI{104,7}{\nF}$                                & $\SI{100}{\nF}\;\left(\SI{1.3}{\hertz}\right)$                                                        \\
+		$\basez$            & $\SI{2}{\uW}$                  & $\SI{886}{\kohm}$                              & $\SI{820}{\kohm}$                                & $\SI{153,2}{\nF}$                            & \hl{$100+\SI{47}{\nF}\;\left(\SI{1.3}{\hertz}\right)$} %MDPI: Please confirm if  keep no space before (. Response. Space added.
       \\
 		\bottomrule
 	\end{tabular}
@@ -3387,7 +3387,7 @@ To quantify the sensor's long-term instability, a test was conducted with the ac
 
 \begin{figure}[H]
 	 \includegraphics[width=0.95\textwidth]{collected_data_acc4_calibration_test_7_20240806_en.pdf}
-	\caption{\hl{Raw} %MDPI: To reduce white space, we have not placed it where it is first mentioned, please confirm. #13
+	\caption{\hl{Raw} %MDPI: To reduce white space, we have not placed it where it is first mentioned, please confirm. Response: Confirmed. We agree with the new placement.
  data dataset acquired during the static calibration procedure performed at a constant temperature of $\approx$$\SI{23.4}{\celsius}$. The top row displays the uncalibrated response (in digital counts) for the $\basex$, $\basey$, and $\basez$ axes as the sensor undergoes discrete rotations. The bottom row presents the auxiliary variables: the optical reference power (used for normalization), the rotation angle $\psiEuler$ (continuous rotation around the table axis), and the inclination angle $\thetaEuler$ (discrete steps relative to gravity).\protect\label{fig:-64}}
 	
 
@@ -3397,7 +3397,7 @@ To quantify the sensor's long-term instability, a test was conducted with the ac
 \vspace{-6pt}
 \begin{figure}[H]
  \includegraphics[width=0.95\textwidth]{calibrated_data_acc_4_calibration_test_7_20240806_en.pdf}
-	\caption{\hl{Validation} %MDPI: To reduce white space, we have not placed it where it is first mentioned, please confirm.
+	\caption{\hl{Validation} %MDPI: To reduce white space, we have not placed it where it is first mentioned, please confirm. Response: Confirmed. We agree with the new placement.
  of the static calibration at $\SI{23.4}{\celsius}$. The plots compare the calibrated sensor acceleration ($\compensatedMeasurements$, purple line) against the gravitational reference field ($\vetGravidade^{\sistemaBaseSensor}$, magenta line) for the three{ orthogonal axes. The precise overlap between the measured and reference curves demonstrates the effectiveness of the estimated compensation matrix $\compensationMatrixX$ and bias vector $\calibratedBiasVector$ in correcting scale factor and misalignment errors.}}\label{fig:-63}
 \end{figure}
 \vspace{12pt}
@@ -3446,12 +3446,12 @@ The observed disparity in the results among the axes is likely attributable to m
 \vspace{-6pt}
 \begin{table}[H]
 \setlength{\tabcolsep}{11.8mm}
-	\caption{\hl{Accelerometer} %MDPI: 1. Please confirm if keep bold and italic in the table. 2. please bold header in the table.
+	\caption{\hl{Accelerometer} %MDPI: 1. Please confirm if keep bold and italic in the table. 2. please bold header in the table. 
  instability performance parameters.\protect\label{tab:-4}}
 	\centering{}%
 	\begin{tabular}{ccc}
 		\toprule
-		Axis         & {VRW} {$\left[\si{\meter\per\second\per\sqrt{{\hour}}}\right]$} & {Bias Instability} {{$\left[\si{\milli\gravity}\right]$}} \\\midrule
+		\textbf{Axis}         & \textbf{VRW} {${\left[\si{\meter\per\second\per\sqrt{{\hour}}}\right]}$} & \textbf{Bias Instability} {{$\left[\si{\milli\gravity}\right]$}} \\\midrule
 		$\mathbf{x}$ & $\num{3.9594}$                                                    & $\num{0.5383}$                                 \\
 		$\mathbf{y}$ & $\num{1.9444}$                                                    & $\num{1.1031}$                                 \\
 		$\mathbf{z}$ & $\num{2.8702}$                                                    & $\num{1.8719}$                                 \\
@@ -3465,12 +3465,12 @@ The observed disparity in the results among the axes is likely attributable to m
 \begin{table}[H]
 \setlength{\tabcolsep}{7.1mm}
 
-\caption{\hl{Comparison} %MDPI: Please confirm if the bold formatting in the table is necessary; if not, please remove it. 
+\caption{\hl{Comparison} %MDPI: Please confirm if the bold formatting in the table is necessary; if not, please remove it. Response: The bold and italic formatting has been removed as requested.
  of the developed sensor's bias instability with standard inertial navigation performance grades \cite{Groves2007}.}
 \label{tab:grades}
 \begin{tabular}{@{}l c c@{}}
 \toprule
-Performance Grade & {Bias Instability} & {Typical Application} \\ \midrule
+\textbf{Performance Grade} & \textbf{Bias Instability} & \textbf{Typical Application} \\ \midrule
 Marine/Navigation & $<$$\SI{0.025}{\milli\gravity}$ & Submarines, Long-haul Aircraft \\
 {Tactical} & {\SI{0.1}{}--\SI{10.0}{\milli\gravity}} & {UAVs, Short-range Missiles} \\
 Automotive/Industrial & $>$$\SI{10.0}{\milli\gravity}$ & Airbags, Suspension Control \\ \midrule
@@ -3556,10 +3556,10 @@ The extraction of a single value to represent the nonlinearity from this noisy d
 
 
 \vspace{-6pt}
-\textcolor{blue}{Finally, Table \ref{tab:comparison} presents a comparison between the proposed accelerometer and state-of-the-art \gls{fbg}-based sensors reported in recent literature. While the referenced works achieve high sensitivities---often exceeding \SI{1000}{\pico\meter\per\gravity}---they are predominantly designed for seismic and structural monitoring, operating in AC frequency ranges (\SI{>0}{\hertz}) and relying on commercial spectral interrogators. In contrast, the sensor developed in this work focuses on tactical navigation requirements. It employs an embedded differential intensity interrogation system that extends the frequency response down to DC (\SI{0}{\hertz}). Furthermore, as highlighted in the table, the primary performance differentiator of the proposed architecture is the thermal bias stability (below \SI{2}{\milli\gravity}), demonstrating its suitability for inertial navigation systems where long-term stability and \gls{swap} optimization are more critical than absolute sensitivity.}
+\textcolor{blue}{Finally, Table \ref{tab:comparison} presents a comparison between the proposed accelerometer and state-of-the-art \gls{fbg}-based sensors reported in recent literature. While the referenced works achieve high sensitivities---often exceeding \SI{1000}{\pico\meter\per\gravity}---they are predominantly designed for seismic and structural monitoring, operating in AC frequency ranges (\SI{>0}{\hertz}) and relying on commercial spectral interrogators. In contrast, the sensor developed in this work focuses on tactical navigation requirements. It employs an embedded differential intensity interrogation system that extends the frequency response down to DC (\SI{0}{\hertz}). Furthermore, as highlighted in the table, the primary performance differentiator of the proposed architecture is the bias stability (below \SI{2}{\milli\gravity}), demonstrating its suitability for inertial navigation systems where long-term stability and \gls{swap} optimization are more critical than absolute sensitivity.}
 \begin{table}[H]
 
-\caption{\hl{Comparison} %MDPI: Please cite this table in the text and ensure that the first citation of each table appears in numerical order.
+\caption{\hl{Comparison} %MDPI: Please cite this table in the text and ensure that the first citation of each table appears in numerical order. Response: We have added a new paragraph citing Table 5 in the text (highlighted in blue). We also corrected a typo in the table's title ("Comparison").
  of the proposed accelerometer performance with state-of-the-art FBG-based sensors reported in recent literature.}
 \label{tab:comparison}
 \resizebox{\textwidth}{!}{%
@@ -3577,11 +3577,11 @@ force monitoring \\
 \citet{Liu2025} & Integrated Single-Mass  & Micron Optics, SI155& \SI{1025}{\pm\per\gravity} & \SIrange{20}{205}{\hertz} & Low cross-axis error \\
 \citet{cao2025} & Integrated Single-Mass  & Ibsen, IMON 512& \SI{56.5}{\pm\per\gravity} & \SIrange{30}{80}{\hertz} & Structural health monitoring \\
 \citet{VelazquezCarreon2026} & Integrated Single-Mass  & FBG demodulator (unspecified)& \SI{1730}{\pm\per\gravity} & \SIrange{1}{20}{\hertz} & Low-frequency \\ \midrule
-{\hl{This Work} %MDPI: Please confirm if the bold formatting in the table is necessary; if not, please remove it. 
+{\hl{This Work} %MDPI: Please confirm if the bold formatting in the table is necessary; if not, please remove it. Response: The bold and italic formatting has been removed as requested.
 } & {Single Seismic Mass} & {Diff. Intensity (embedded)} & {112 \si{\pico\meter\per\gravity}} (differential) & {DC---440 \si{\hertz}} & {Thermal Bias Stability (\textless 2 \si{\milli\gravity})} \\ \bottomrule
 \end{tabular}%
 }
-\noindent{\footnotesize{{\hl{Note:} %MDPI: Please confirm if the italics are necessary; if not, please remove them. 
+\noindent{\footnotesize{{\hl{Note:} %MDPI: Please confirm if the italics are necessary; if not, please remove them. Response: The bold and italic formatting has been removed as requested.
 } The sensitivity units differ due to interrogation methods (wavelength shift vs. intensity voltage output), but the key performance differentiator for navigation is the bias stability.}}
 
 \end{table}
@@ -3833,7 +3833,8 @@ As future work, the following are suggested: the miniaturization of the optical 
 
 % Written informed consent for publication must be obtained from participating patients who can be identified (including by the patients themselves). Please state ``Written informed consent has been obtained from the patient(s) to publish this paper'' if applicable.}
 
-\dataavailability{\hl{~}\textcolor{blue}{The data are available on \url{https://doi.org/10.5281/zenodo.18825983}, accessed on 1 March 2026.}} %MDPI: We encourage all authors of articles published in MDPI journals to share their research data. In this section, please provide details regarding where data supporting reported results can be found, including links to publicly archived datasets analyzed or generated during the study. Where no new data were created, or where data is unavailable due to privacy or ethical restrictions, a statement is still required. Suggested Data Availability Statements are available in section ``MDPI Research Data Policies'' at \url{https://www.mdpi.com/ethics}.}
+\dataavailability{\hl{~}\textcolor{blue}{The data are available on \url{https://doi.org/10.5281/zenodo.18825983}, accessed on 1 March 2026.}} %MDPI: We encourage all authors of articles published in MDPI journals to share their research data. In this section, please provide details regarding where data supporting reported results can be found, including links to publicly archived datasets analyzed or generated during the study. Where no new data were created, or where data is unavailable due to privacy or ethical restrictions, a statement is still required. Suggested Data Availability Statements are available in section ``MDPI Research Data Policies'' at \url{https://www.mdpi.com/ethics}.} Response: We have updated the Data Availability Statement to include the Zenodo repository link containing all the datasets supporting this work.
+
 
 
 % Only for journal Drones
@@ -3927,7 +3928,7 @@ Borodacz, K.; Szczepa{\'n}ski, C.
 \bibitem[Alghamdi et~al.(2025)Alghamdi, Alahmari, Yonbawi, Alsaleem, Ateeq, and Almushir]{alghamdi2025}
 Alghamdi, S.; Alahmari, S.; Yonbawi, S.; Alsaleem, K.; Ateeq, F.; Almushir, F.
 \newblock Autonomous Navigation Systems in GPS-Denied Environments: A Review of Techniques and Applications.
-\newblock In \emph{Proceedings of the 2025 11th International Conference on Automation, Robotics, and Applications (ICARA)}; IEEE: \hl{Piscataway, NJ, USA,} %MDPI: Newly added information. Please confirm. Same as below.
+\newblock In \emph{Proceedings of the 2025 11th International Conference on Automation, Robotics, and Applications (ICARA)}; IEEE: \hl{Piscataway, NJ, USA,} %MDPI: Newly added information. Please confirm. Same as below. Response: Confirmed.
   2025; pp. 290--299.
 
 \bibitem[Sanjuan et~al.(2023)Sanjuan, Sinyukov, Warrayat, and Guzman]{sanjuan2023}
@@ -4021,10 +4022,16 @@ Li, F.; Wang, S.; Zhang, F.; Jiang, S.
 \newblock FBG accelerometer with high figure of merit based on double short gratings.
 \newblock {\em IEEE Sens. J.} {\bf 2024}, \emph{24}, 40958--40963.
 
-\bibitem[Zhang et~al.(2024)Zhang, Ning, Pei, Liu, and Teng]{zhang2024triaxial}
+\bibitem[Zhang et~al.(2024)Zhang, Ning, Pei, Liu, and Teng]{Zhang2024}
 Zhang, B.; Ning, T.; Pei, L.; Liu, S.; Teng, Y.
-\newblock \hl{A triaxial dual FBG accelerometer that can be used for seismic wave detection.} %MDPI: Refs. 21 and 25 are duplicated. Please remove duplicated references and rearrange all the references so that they appear in numerical order. Please ensure that there are no duplicated references.
-\newblock {\em IEEE Sens. J.} {\bf 2024}, {\em 24},~10031--10038.
+\newblock \hl{A Triaxial Dual FBG Accelerometer Which Can be Used for Seismic Wave Detection.}
+\newblock {\em IEEE Sens. J.} {\bf 2024}, \emph{24}, 10031--10038.
+\newblock {\url{https://doi.org/10.1109/JSEN.2024.3359322}}.
+
+%\bibitem[Zhang et~al.(2024)Zhang, Ning, Pei, Liu, and Teng]{zhang2024triaxial}
+%Zhang, B.; Ning, T.; Pei, L.; Liu, S.; Teng, Y.
+%\newblock \hl{A triaxial dual FBG accelerometer that can be used for seismic wave detection.} %MDPI: Refs. 21 and 25 are duplicated. Please remove duplicated references and rearrange all the references so that they appear in numerical order. Please ensure that there are no duplicated references.
+%\newblock {\em IEEE Sens. J.} {\bf 2024}, {\em 24},~10031--10038.
 
 \bibitem[Qiu et~al.(2023)Qiu, Wang, Mai, Teng, and He]{Qiu2023}
 Qiu, Z.; Wang, X.; Mai, M.; Teng, Y.; He, Z.
@@ -4043,12 +4050,6 @@ Zhou, R.; Chen, F.; Li, S.; Wang, R.; Qiao, X.
 \newblock Three-Dimensional Vector Accelerometer Using a Multicore Fiber Inscribed with Three FBGs.
 \newblock {\em J. Light. Technol.} {\bf 2021}, {\em 39},~3244--3250.
 \newblock {\url{https://doi.org/10.1109/JLT.2021.3058240}}.
-
-\bibitem[Zhang et~al.(2024)Zhang, Ning, Pei, Liu, and Teng]{Zhang2024}
-Zhang, B.; Ning, T.; Pei, L.; Liu, S.; Teng, Y.
-\newblock \hl{A Triaxial Dual FBG Accelerometer Which Can be Used for Seismic Wave Detection.}
-\newblock {\em IEEE Sens. J.} {\bf 2024}, \emph{24}, 10031--10038.
-\newblock {\url{https://doi.org/10.1109/JSEN.2024.3359322}}.
 
 \bibitem[Chen et~al.(2021)Chen, Li, Wang, and Qiao]{Chen2021}
 Chen, F.; Li, X.; Wang, R.; Qiao, X.
@@ -4077,7 +4078,7 @@ Cazo, R.M.; dos Reis~Ribeiro, E.; Nunes, M.B.; Barbosa, C.L.; de~Siqueira~Ferrei
 \bibitem[Masek et~al.(2011)Masek, Cada, Cook, Nan, and Li]{Masek2011}
 Masek, V.; Cada, M.; Cook, A.; Nan, W.; Li, D.
 \newblock Fibre optic based 3-D accelerometer design.
-\newblock In Proceedings of the 2011 IEEE Sensors Applications Symposium,  \hl{San Antonio, TX, USA,} 22--24 February \hl{2011.} %MDPI: We removed pp. 123--126. Please confirm this revision.
+\newblock In Proceedings of the 2011 IEEE Sensors Applications Symposium,  \hl{San Antonio, TX, USA,} 22--24 February \hl{2011.} %MDPI: We removed pp. 123--126. Please confirm this revision.    Response: Confirmed.
 \newblock {\url{https://doi.org/10.1109/SAS.2011.5739800}}.
 
 \bibitem[Huang et~al.(2026)Huang, Tang, Zhang, He, Zhu, Lou, Song, He, Yi, and Tan]{Huang2026}
@@ -4111,7 +4112,7 @@ Kuncar, A.; Sysel, M.; Urbanek, T.
 \bibitem[da~Silva et~al.(2020)da~Silva, Fazzolari, and Correa]{Silva2020b}
 da~Silva, R.D.; Fazzolari, H.A.; Correa, D.P.F.
 \newblock Design And Implementation Of A Real Time Attitude Estimation System with Low Cost Sensors.
-\newblock In Proceedings of the Anais do Congresso Brasileiro de Autom{\'{a}}tica 2020.\hl{ sbabra,  dec 2020.} \textcolor{blue}{Porto Alegre, Brazil, 23--26 November 2020.} %MDPI: please replace them with conference address and date.
+\newblock In Proceedings of the Anais do Congresso Brasileiro de Autom{\'{a}}tica 2020.\hl{ sbabra,  dec 2020.} \textcolor{blue}{Porto Alegre, Brazil, 23--26 November 2020.} %MDPI: please replace them with conference address and date. Response: We have updated the conference location and dates (highlighted in blue) as requested.
 \newblock {\url{https://doi.org/10.48011/asba.v2i1.1155}}.
 
 \bibitem[Li and Fang(2013)]{Li2013a}
@@ -4134,7 +4135,7 @@ Antunes, P.; Lima, H.; Monteiro, J.; Andr{\'{e}}, P.S.
 \bibitem[Barbosa et~al.(2000)Barbosa, Rabelo, Lisb{\^o}a, Hattori, and Cazo]{Barbosa2000}
 Barbosa, C.L.; Rabelo, R.C.; Lisb{\^o}a, O.; Hattori, H.T.; Cazo, R.M.
 \newblock {Fabricação e caracterização de Redes de Bragg através do Uso da Técnica de Mascara de Fase}.
-\newblock {\em {Rev. Cient.-Period.-Telecomunicacoes}} {\bf 2000}, \hl{1516--2338.} %MDPI: We are sorry but we could not find the required information about this entry. Please add the volume or doi information.
+\newblock {\em {Rev. Cient.-Period.-Telecomunicacoes}} {\bf 2000}, {\em 3}, no. 2.%, \hl{1516--2338.} %MDPI: We are sorry but we could not find the required information about this entry. Please add the volume or doi information. Response: The number "1516-2338" previously listed was actually the journal's ISSN, not the page numbers. We have removed the ISSN and updated the reference with the correct volume and issue information (Volume 3, Issue 2) as requested.
 
 
 \bibitem[Timoshenko and Gere(1982)]{Timoshenko1982}
