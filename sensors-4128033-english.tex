@@ -2404,7 +2404,7 @@ description={Resistor}
 \newcommand{\orcidauthorB}{0000-0001-5246-5115} % Add \orcidB{} behind the author's name
 
 % Authors, for the paper (add full first names)
-\Author{\hl{Roney Duarte da Silva} %MDPI: 1. Please carefully check the accuracy of names and affiliations. RESPONSE: The names and affiliations are correct. The fisrt affiliation of Roney Duarte da Silva is Aeronautics Institute of Technology and his second affiliation is IEAv. On the other hand, the first affiliation of João M. S. Sakamoto is IEAv, while its second is ITA. So please keep it Roney Duarte da Silva 1,2 and João Marcos Salvi Sakamoto 2,1. 2. The email address highlighted is different from the one submitted online at susy.mdpi.com. Please confirm which is correct. RESPONSE: The correct email is the joao.sakamoto@gp.ita.br. The other email is a personal one (saka2009br@gmail.com) used only to login into the Suzy system.
+\Author{\hl{Roney Duarte da Silva} %MDPI: 1. Please carefully check the accuracy of names and affiliations. RESPONSE: The names and affiliations are correct. The fisrt affiliation of Roney Duarte da Silva is Aeronautics Institute of Technology and his second affiliation is IEAv. On the other hand, the first affiliation of João M. S. Sakamoto is IEAv, while its second is ITA. So please keep it Roney Duarte da Silva 1,2 and João Marcos Salvi Sakamoto 2,1,*. 2. The email address highlighted is different from the one submitted online at susy.mdpi.com. Please confirm which is correct. RESPONSE: The correct email is the joao.sakamoto@gp.ita.br. The other email is a personal one (saka2009br@gmail.com) used only to login into the Suzy system. Unfortunately I couldn't update the email in the Suzy system.
  $^{1,2}$\orcidA{} and João Marcos Salvi Sakamoto $^{2,1,*}$\orcidB{} }
 
 %\longauthorlist{yes}
@@ -2792,7 +2792,7 @@ Furthermore, to ensure the metrological reliability required for high-performanc
 A prevalent difficulty in the design of \gls{fbg} accelerometers is the cross-sensitivity distinction between strain and temperature. A common approach to mitigate this is the use of a differential arrangement \cite{Morikawa2002,Cazo2008,Masek2011}. Another strategy involves decoupling temperature from strain, as proposed by \citet{Huang2026}, utilizing \gls{cfbg} encapsulated in glass fiber-reinforced polymer. This method successfully decoupled strain from temperature by exploiting the distinct responses of the central wavelength and the \gls{fwhm}. However, unlike the intensity-based approach adopted in differential topologies, monitoring the central wavelength response requires the acquisition of the full spectral profile via a high-resolution \gls{osa}. Consequently, deployment in compact, high-speed embedded systems is limited by this requirement. Furthermore, the cost and volume of commercial interrogators remain significantly higher than those of integrated \glspl{mems} electronics, the extreme miniaturization of which remains unmatched for applications with severe space constraints. In this context, the proposal of a custom, simplified, and low-cost interrogation system based on intensity modulation, designed to be easily embedded in a launch vehicle payload, constitutes the first contribution of this work.
 
 
-Although the differential topology mitigates effects on the sensing element, and the decoupling of temperature from strain is a significant step forward, residual errors persist. This occurs because not only is the \gls{fbg} subjected to temperature variations, but the complete accelerometer system, including peripheral optical components, remains susceptible to thermal fluctuations. The response of passive components, such as optical couplers, exhibits temperature dependence \citep{Chovan2011,Bednarek2016}. Similarly, power and wavelength fluctuations are displayed by the optical source (\gls{sld}) \citep{Agrawal2002}. These systemic instabilities manifest as bias and scale factor errors, underscoring the need for a calibration model that actively compensates for the thermal dependence of the entire measurement chain. A developed reference method is employed for the triaxial sensor calibration, building upon the core methodology established by \citet{Kuncar2017} and previously implemented and validated on embedded hardware in \citet{Silva2020b}. Simultaneous and complete adjustment of the scale factor matrix and the misalignments relative to a reference field is enabled by this method. However, it was revealed by experimental tests that, at the system level, differential interrogation alone is insufficient to compensate for the aforementioned thermal effects. Therefore, the proposal of an extended polynomial calibration model represents the second contribution of this work. The thermal compensation of the photodetector, the \gls{sld} light source, and the optical couplers is fundamentally integrated by this model as a ``black box'' system-level method, effectively correcting the aggregate non-linearities of the optoelectronic chain.
+Although the differential topology mitigates effects on the sensing element, and the decoupling of temperature from strain is a significant step forward, residual errors persist. This occurs because not only is the \gls{fbg} subjected to temperature variations, but the complete accelerometer system, including peripheral optical components, remains susceptible to thermal fluctuations. The response of passive components, such as optical couplers, exhibits temperature dependence \citep{Chovan2011,Bednarek2016}. Similarly, power and wavelength fluctuations are displayed by the optical source (\gls{sld}) \citep{Agrawal2002}. These systemic instabilities manifest as bias and scale factor errors, underscoring the need for a calibration model that actively compensates for the thermal dependence of the entire measurement chain. A developed reference method is employed for the triaxial sensor calibration, building upon the core methodology established by \citet{Kuncar2017} and previously implemented and validated on embedded hardware in \citet{Silva2021}. Simultaneous and complete adjustment of the scale factor matrix and the misalignments relative to a reference field is enabled by this method. However, it was revealed by experimental tests that, at the system level, differential interrogation alone is insufficient to compensate for the aforementioned thermal effects. Therefore, the proposal of an extended polynomial calibration model represents the second contribution of this work. The thermal compensation of the photodetector, the \gls{sld} light source, and the optical couplers is fundamentally integrated by this model as a ``black box'' system-level method, effectively correcting the aggregate non-linearities of the optoelectronic chain.
 
 Another critical and often overlooked aspect in these developments is the rigorous characterization of thermal dependence and long-term instability. As previously discussed, bias stability is the governing parameter for the initial alignment of navigation systems. Addressing this gap, a rigorous characterization of the sensor's thermal dependence and long-term instability using Allan Variance analysis \citep{Li2013a} is presented as the third contribution of this work. The sensor was tested in a climatic chamber, where a bias instability below $\SI{2}{\milli\gravity}$ was achieved, validating the proposed architecture and calibration methodology for tactical-grade applications.
 
@@ -2800,7 +2800,7 @@ Another critical and often overlooked aspect in these developments is the rigoro
 In summary, to address the identified gaps---specifically the lack of system-level thermal compensation and the absence of rigorous stochastic noise quantification for navigation---the main contributions of this study are consolidated as follows:
 
 \begin{enumerate}
-    \item {\hl{Embedded} %MDPI: Please confirm if the bold formatting in the paper is necessary; if not, please remove it. Response: The bold formatting has been removed.  Response: The formatting is correct as is, since the term refers to the equation itself and is not a equation number.
+    \item {\hl{Embedded} %MDPI: Please confirm if the bold formatting in the paper is necessary; if not, please remove it. Response: The bold formatting has been removed.  
  Intensity-Based Interrogation:} Development of a custom, low-cost, and compact interrogation system that enables DC-coupled acceleration measurements, overcoming the \gls{swap} limitations of commercial spectral interrogators.
     \item {System-Level Calibration Model:} Proposal of an extended polynomial calibration methodology that compensates for the aggregate thermal non-linearities of the entire optoelectronic chain (source, couplers, and detectors), surpassing the limitations of transducer-only compensation.
     \item {Rigorous Stability Analysis:} A comprehensive characterization of the sensor's long-term bias instability and \gls{vrw} using Allan Variance, validating its performance against tactical-grade navigation requirements.
@@ -2815,7 +2815,7 @@ The operating principle of an \gls{fbg}-based accelerometer is the dynamic detec
 
 Triaxial accelerometers are described in the literature in two main topologies: the modular one, which consists of three orthogonally mounted one-dimensional sensors, and the single seismic mass one. In this work, the second topology is adopted, in which the spatial displacement of the seismic mass induces strain in a set of \glspl{fiberSegment} containing \glspl{fbg}, and this strain encodes the information about the three-dimensional components of acceleration \cite{Guo2021}.
 
-The strain transducing element is the \glsfirst{fbg}, an optical component consisting of an \gls{fo} whose core refractive index has been periodically modulated along its axis. This structure acts as a selective spectral filter, reflecting a narrow band of wavelengths, the peak of which is the Bragg wavelength ($\wavelengthFBG$). When the fiber is subjected to mechanical strain ($\deformation$) or a temperature variation ($\Delta\temperature$), the grating period changes, causing a shift in the reflected wavelength. This spectral variation is modeled by the Bragg \hl{equation} %MDPI: Please ensure all variables/values in the equation appear in the same format in the text (normal/italic/bold/subscript/superscript).
+The strain transducing element is the \glsfirst{fbg}, an optical component consisting of an \gls{fo} whose core refractive index has been periodically modulated along its axis. This structure acts as a selective spectral filter, reflecting a narrow band of wavelengths, the peak of which is the Bragg wavelength ($\wavelengthFBG$). When the fiber is subjected to mechanical strain ($\deformation$) or a temperature variation ($\Delta\temperature$), the grating period changes, causing a shift in the reflected wavelength. This spectral variation ($\Delta\wavelengthFBG$) is modeled by the Bragg \hl{equation} %MDPI: Please ensure all variables/values in the equation appear in the same format in the text (normal/italic/bold/subscript/superscript). Response: The formatting is correct as is, since the term refers to the equation itself and is not a equation number.
  \cite{Kashyap2010}:
 
 \begin{equation}
@@ -3010,7 +3010,7 @@ The spectra acquired by the \gls{osa} are denoted by the vector $\osaReading$, w
 This monitoring, exemplified in \cref{fig:-34}, allowed for the selection of \glspl{fbg} with suitable reflectivity and spectral shape, preventing the sensor's signal-to-noise ratio from being compromised. In the figure, the darker curves represent the most recent measurements, while the lighter ones correspond to the oldest, according to the inscription time. By monitoring the reflectivity, it is possible to prevent the development of side lobes in the \gls{fbg} spectrum. With the presented setup, reflectivities greater than 80\% were achieved with an exposure time of approximately \SI{45}{\s}.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{plot_time_elapsed_fbg_production_en.pdf}
-	\caption{\hl{Data} %MDPI: Commas are only used for numbers with five or more digits. We removed them in four-digit numbers in the figure. Please confirm. same as other figures.
+	\caption{\hl{Data} %MDPI: Commas are only used for numbers with five or more digits. We removed them in four-digit numbers in the figure. Please confirm. same as other figures. Response: Confirmed. We agree with the removal of commas in four-digit numbers.
  acquired during the production of an \glsentryname{fbg} with transmission interrogation.\protect\label{fig:-34} The ripples observed in the Optical Power graphic are static spectral artifacts of the inscription setup. As shown in the Reflectivity graph, these artifacts are eliminated by the differential calculatin described in \cref{eq:-s104}.}
 	
 	
@@ -3210,7 +3210,7 @@ The characterization of the accelerometer involved multiple procedures to evalua
 	\label{eq:-15-1}
 \end{equation}
 
-This calibration method is described in detail in the works of \cite{Silva2020b,Kuncar2017}. With the parameters obtained in this step, while maintaining a constant temperature, it was possible to perform the bias instability test, presented in the next section. In \cref{sec:thermal_calib_model}, a modification of this method is presented to include thermal compensation.
+This calibration method is described in detail in the works of \cite{Silva2021,Kuncar2017}. With the parameters obtained in this step, while maintaining a constant temperature, it was possible to perform the bias instability test, presented in the next section. In \cref{sec:thermal_calib_model}, a modification of this method is presented to include thermal compensation.
 
 \subsubsection{{Bias} Instability and Velocity Random Walk\protect\label{sec:bias_stability}}
 
@@ -3288,7 +3288,7 @@ Although geometric fitting methods exist \citep{Markovsky2004}, the algebraic \g
 For the thermal characterization, the calibration procedure was repeated at different controlled temperatures (\SI{16}{\celsius}, \SI{24}{\celsius}, and \SI{45}{\celsius}) using a testbed with temperature control and three-degree-of-freedom rotation. \cref{fig:dados_adquiridos_ensaio_temperatura} presents the data acquired for calibration, already normalized by the reference measurement. The test is performed by pointing one axis at a time vertically downwards and upwards. The first axis was the $\mathbf{z}$-axis, with a \SI{180}{\degree} rotation around the $\mathbf{y}$-axis. Then, the $\mathbf{x}$-axis was subjected to the same procedure, followed by the $\mathbf{y}$-axis.
 \begin{figure}[H]
 \includegraphics[width=0.9\columnwidth]{uncalibrated_data_en.png}
-	\caption{\hl{Data} %MDPI: Please confirm whether an explanation of the colors needs to be added to the figure caption. Response. We add a explanation on figure label.
+	\caption{\hl{Data} %MDPI: Please confirm whether an explanation of the colors needs to be added to the figure caption. Response: We add a explanation on figure label.
  acquired for calibration under controlled temperature conditions. \textcolor{blue}{The colors purple, magenta, and yellow represent \SI{16}{\celsius}, \SI{24}{\celsius}, and \SI{45}{\celsius}, respectively}. At the top of the graph, the axis that is parallel to the gravity vector is indicated, where the notation $\mathbf{z}\downarrow$ signifies that  the{ respective axis ($\mathbf{z}$) is oriented downward. In this setup, the other two axes are orthogonal to gravity and, ideally, should exhibit zero measurement. However, the acquired data reveals significant cross-axis coupling effects. The subsequent section {presenting the} results demonstrates the capability of the proposed calibration method to effectively correct these parasitic effects.}}	\label{fig:dados_adquiridos_ensaio_temperatura}
 \end{figure}
 
@@ -3326,7 +3326,7 @@ The first experimental stage consisted of validating the signal conditioning cir
 		{1}{\%}  & $\SI{101}{\uW}$                & $\SI{17,5}{\kohm}$                             & $\SI{16}{\kohm}$                                 & $\SI{7,8}{\uF}$                              & $\SI{10}{\uF}\;\left(\SI{1}{\hertz}\right)$            \\
 		$\basex$            & $\SI{730}{\nano\watt}$         & \multicolumn{2}{c}{$\SI{2,4}{\Mohm}$}          & $\SI{52,4}{\nF}$                                 & $\SI{47}{\nF}\;\left(\SI{1.7}{\hertz}\right)$                                                         \\
 		$\basey$            & $\SI{1,4}{\uW}$                & \multicolumn{2}{c}{$\SI{1,2}{\Mohm}$}          & $\SI{104,7}{\nF}$                                & $\SI{100}{\nF}\;\left(\SI{1.3}{\hertz}\right)$                                                        \\
-		$\basez$            & $\SI{2}{\uW}$                  & $\SI{886}{\kohm}$                              & $\SI{820}{\kohm}$                                & $\SI{153,2}{\nF}$                            & \hl{$100+\SI{47}{\nF}\;\left(\SI{1.3}{\hertz}\right)$} %MDPI: Please confirm if  keep no space before (. Response. Space added.
+		$\basez$            & $\SI{2}{\uW}$                  & $\SI{886}{\kohm}$                              & $\SI{820}{\kohm}$                                & $\SI{153,2}{\nF}$                            & \hl{$100+\SI{47}{\nF}\;\left(\SI{1.3}{\hertz}\right)$} %MDPI: Please confirm if  keep no space before. Response: Space added.
       \\
 		\bottomrule
 	\end{tabular}
@@ -3446,7 +3446,7 @@ The observed disparity in the results among the axes is likely attributable to m
 \vspace{-6pt}
 \begin{table}[H]
 \setlength{\tabcolsep}{11.8mm}
-	\caption{\hl{Accelerometer} %MDPI: 1. Please confirm if keep bold and italic in the table. 2. please bold header in the table. 
+	\caption{\hl{Accelerometer} %MDPI: 1. Please confirm if keep bold and italic in the table. 2. please bold header in the table. Response: The bold and italic formatting has been removed as requested. The header has become bold.
  instability performance parameters.\protect\label{tab:-4}}
 	\centering{}%
 	\begin{tabular}{ccc}
@@ -3944,7 +3944,7 @@ Guo, Y.; Chen, M.; Xiong, L.; Zhou, X.; Li, C.
 
 \bibitem[Kashyap(2010)]{Kashyap2010}
 Kashyap, R.
-\newblock {\em Fiber Bragg Gratings}; Academic Press:  \hl{Cambridge, MA, USA,} %We added the location of publisher. Please confirm
+\newblock {\em Fiber Bragg Gratings}; Academic Press:  \hl{Cambridge, MA, USA,} %We added the location of publisher. Please confirm. Response: confirmed.
  2010; p. 614.
 
 \bibitem[Berkoff and Kersey(1996)]{Berkoff1996}
@@ -4030,7 +4030,7 @@ Zhang, B.; Ning, T.; Pei, L.; Liu, S.; Teng, Y.
 
 %\bibitem[Zhang et~al.(2024)Zhang, Ning, Pei, Liu, and Teng]{zhang2024triaxial}
 %Zhang, B.; Ning, T.; Pei, L.; Liu, S.; Teng, Y.
-%\newblock \hl{A triaxial dual FBG accelerometer that can be used for seismic wave detection.} %MDPI: Refs. 21 and 25 are duplicated. Please remove duplicated references and rearrange all the references so that they appear in numerical order. Please ensure that there are no duplicated references.
+%\newblock \hl{A triaxial dual FBG accelerometer that can be used for seismic wave detection.} %MDPI: Refs. 21 and 25 are duplicated. Please remove duplicated references and rearrange all the references so that they appear in numerical order. Please ensure that there are no duplicated references. RESPONSE: duplicated reference removed. No other duplicated reference found.
 %\newblock {\em IEEE Sens. J.} {\bf 2024}, {\em 24},~10031--10038.
 
 \bibitem[Qiu et~al.(2023)Qiu, Wang, Mai, Teng, and He]{Qiu2023}
@@ -4109,11 +4109,12 @@ Kuncar, A.; Sysel, M.; Urbanek, T.
 \newblock In \emph{Proceedings of the Artificial Intelligence Trends in Intelligent Systems}; Silhavy, R., Senkerik, R., Kominkova~Oplatkova, Z., Prokopova, Z., Silhavy, P., Eds.; \hl{Springer:} Cham, Switzerlands, 2017; pp. 178--187.
 \newblock {\url{https://doi.org/10.1007/978-3-319-57261-1_18}}.
 
-\bibitem[da~Silva et~al.(2020)da~Silva, Fazzolari, and Correa]{Silva2020b}
-da~Silva, R.D.; Fazzolari, H.A.; Correa, D.P.F.
-\newblock Design And Implementation Of A Real Time Attitude Estimation System with Low Cost Sensors.
-\newblock In Proceedings of the Anais do Congresso Brasileiro de Autom{\'{a}}tica 2020.\hl{ sbabra,  dec 2020.} \textcolor{blue}{Porto Alegre, Brazil, 23--26 November 2020.} %MDPI: please replace them with conference address and date. Response: We have updated the conference location and dates (highlighted in blue) as requested.
-\newblock {\url{https://doi.org/10.48011/asba.v2i1.1155}}.
+
+%\bibitem[da~Silva et~al.(2020)da~Silva, Fazzolari, and Correa]{Silva2020b}
+%da~Silva, R.D.; Fazzolari, H.A.; Correa, D.P.F.
+%\newblock Design And Implementation Of A Real Time Attitude Estimation System with Low Cost Sensors.
+%\newblock In Proceedings of the Anais do Congresso Brasileiro de Autom{\'{a}}tica 2020.\hl{ {SBA},  dec 2020.} \textcolor{blue}{Porto Alegre, Brazil, 23--26 November 2020.} %MDPI: please replace them with conference address and date. Response: This reference has been replaced by Silva2021.
+%\newblock {\url{https://doi.org/10.48011/asba.v2i1.1155}}.
 
 \bibitem[Li and Fang(2013)]{Li2013a}
 Li, J.; Fang, J.
@@ -4123,7 +4124,7 @@ Li, J.; Fang, J.
 
 \bibitem[L{\'{o}}pez-Higuera(2002)]{LopezHiguera2002}
 L{\'{o}}pez-Higuera, J.M.
-\newblock {\em Handbook of Optical Fibre Sensing Technology}; Wiley:  \hl{Hoboken, NJ, USA,} %We added the location of publisher. Please confirm
+\newblock {\em Handbook of Optical Fibre Sensing Technology}; Wiley:  \hl{Hoboken, NJ, USA,} %We added the location of publisher. Please confirm. Response: confirmed.
  2002; p. 828.
 
 \bibitem[Antunes et~al.(2008)Antunes, Lima, Monteiro, and Andr{\'{e}}]{Antunes2008}
